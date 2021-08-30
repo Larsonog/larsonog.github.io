@@ -1,10 +1,26 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #9FD18A;
+  background-color: #9FD18A;
+
 }
 
-header {
+.header {
   padding: 20px 0;
-  color: #69B648;
+  background-color: #69B648;
+  color: #F1F9F0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+
+}
+h1{
+  font-size: 50px;
+}
+.contents{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+.gallery{
+  margin = 20px;
+  border = 20px;
 }
