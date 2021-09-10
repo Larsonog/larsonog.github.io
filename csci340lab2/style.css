@@ -1,15 +1,23 @@
 body {
   font-family: 'Permanent Marker', sans-serif;
   font-weight: 300;
-  background-color: #fdfd96;
-  font-size: 40px;
-  
+  background-color: #376E6F;
+  font-size: 25px;
+  color:#D1E8E2
 
 }
 h1{
   font-size: 100px;
 }
-.row{
+.row2{
   padding: 50px;
+  border: 10px solid #D1E8E2;
+  margin-top: 50px;
 
 }
+.row1{
+  border: 10px solid #D1E8E2;
+}
+#buttons{
+  color:black;
+  }
