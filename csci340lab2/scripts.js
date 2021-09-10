@@ -9,4 +9,15 @@ $(document).ready(function() {
        },
       });
   });
+
+});
+$('#clickbutton').on("click", function() {
+  $.ajax({
+    dataType: "json",
+    url: "https://thronesapi.com/json",
+    success: function(results) {
+      console.log("click!");
+      $('<img>').attr("src", results["imageUrl"]);
+     },
+    });
 });
