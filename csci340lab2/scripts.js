@@ -9,18 +9,15 @@ $(document).ready(function() {
        },
       });
   });
-  
+
   $('#clickbutton').click(function() {
       $.ajax({
         dataType: "json",
-        url: "https://random-d.uk/api?format=json",
+        url: "https://randomfox.ca/floof/",
         success: function(results) {
-          console.log(results["url"]);
-          if (results["url"].endsWith(".mp4")) {
-            $('<img>').attr("src", "images/question.png");
-          } else {
-            $('<img>').attr("src", results["url"]);
-          }
+          console.log("CLICK");
+          console.log(results["image"]);
+          $('#pic').attr("src", results["image"]);
         },
         error: function(xhr,status,error) {
           console.log(error);
