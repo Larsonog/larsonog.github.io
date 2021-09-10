@@ -14,9 +14,14 @@ h1{
   border: 10px solid #D1E8E2;
   margin-top: 50px;
 
+
 }
 .row1{
   border: 10px solid #D1E8E2;
+}
+.row3{
+  border: 10px solid #D1E8E2;
+  margin-top: 50px;
 }
 #buttons{
   color:black;
