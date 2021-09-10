@@ -3,11 +3,18 @@ body {
   font-weight: 300;
   background-color: #376E6F;
   font-size: 25px;
-  color:#D1E8E2
+  color:#D1E8E2;
 
 }
 h1{
   font-size: 100px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
 }
 .row2{
   padding: 50px;
@@ -25,4 +32,12 @@ h1{
 }
 #buttons{
   color:black;
-  }
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#pic{
+  border: 5px solid #FFCB9A;
+}
+#quote{
+  margin-bottom: 20px;
+}
