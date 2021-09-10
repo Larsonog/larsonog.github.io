@@ -20,8 +20,6 @@ h3{
   padding: 50px;
   border: 10px solid #D1E8E2;
   margin-top: 50px;
-
-
 }
 .row1{
   border: 10px solid #D1E8E2;
@@ -40,4 +38,12 @@ h3{
 }
 #quote{
   margin-bottom: 20px;
+}
+#pic1{
+  margin-left: 20px;
+  margin-top: 100px;
+}
+#pic2{
+  margin-left: 700px;
+  margin-top: 30px;
 }
